@@ -8,7 +8,7 @@ function Header() {
       <div className="contenedor-infomi">
         <div data-aos="fade-right">
           <h1 className="nombre">JULIOC MESA RUIZ</h1>
-          <h2 className='title-h2'> "Soy Desarrollador Web"</h2>
+          <h2 className='title-h2'> "Soy Desarrollador Web Junior"</h2>
           <h3><i className="bi bi-envelope-fill"></i>juliocmr97@gmail.com
           </h3>
           <h3><i className="bi bi-telephone-forward"></i>+5352990719</h3>
