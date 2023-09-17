@@ -23,7 +23,7 @@ function Proyectos() {
                     </div>
                 </div>
                 <div className="card" >
-                    <img src="//images/miniproyectos.avif" className="card-img-top" alt="..." />
+                    <img src="/images/miniproyectos.avif" className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Miniproyectos</h5>
                         <p className="card-text">"Miniproyecto: Clima y Roadmap. Utiliza llamadas a APIs con fetch, hook (useState, useEffect) para mostrar datos climáticos y organizar metas frontend ."</p><br />
