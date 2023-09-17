@@ -1,0 +1,26 @@
+.contenedor-proyectos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.card{
+    width: 360px;
+    height: 550px;
+    background-color: rgb(39, 38, 44);
+    color: aliceblue;
+    overflow: hidden;
+    margin-bottom: 5rem;
+    
+}
+.card-img-top{
+    
+    width: 400px;
+    height: 300px;
+    
+}
+i{
+    padding-right: 5px;
+}
+

@@ -1,0 +1,188 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(13,13,13);
+    z-index: 99;
+    
+}
+.logo{
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.logo:hover{
+    scale: 1.3;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem;
+    margin-top: 10px;
+    -webkit-animation-name: slideInRight;
+    animation-name: slideInRight;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    
+}
+@-webkit-keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInRight {
+    0% {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    } 
+.nav-list li a:hover{
+    color:#3b6b81;
+    
+}
+.abrirMenu{
+    display: none;
+}
+.cerrar-menu{
+    display: none;
+}
+
+@media  screen and (max-width: 550px) {
+    
+    .abrirMenu{
+        display: block;
+        margin-right: 15px;
+        background-color: transparent;
+        color: white;
+        border: transparent;
+        font-size: 40px;
+        
+    }
+    .cerrar-menu{
+        display: block;
+        background-color: transparent;
+        color: white;
+        border: transparent;
+        font-size: 25px;
+        margin-right: 70px;
+    }
+    
+    .nav{
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        
+        height: 4500px;
+        background-color: #000000;
+        padding: 2rem;
+        padding-left: 0rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        -webkit-animation-name: fadeOutRight;
+        animation-name: fadeOutRight;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+    @-webkit-keyframes fadeOutRight {
+        0% {
+        opacity: 1;
+        }
+        100% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        }
+        }
+        @keyframes fadeOutRight {
+        0% {
+        opacity: 1;
+        }
+        100% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        }
+        }
+    .nav-visible{
+        opacity: 1;
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        
+        height: 4500px;
+        background-color: #000000;
+        padding: 2rem;
+        padding-left: 0rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        -webkit-animation-name: fadeInRight;
+        animation-name: fadeInRight;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+        
+    }
+    @-webkit-keyframes fadeInRight {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        }
+        @keyframes fadeInRight {
+        0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+        }
+        100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+        }
+        } 
+    .nav-list{
+        flex-direction: column;
+        align-items: end;
+    }
+    .nav-list li a{
+        font-size: 18px;
+    }
+
+}
