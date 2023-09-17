@@ -1,5 +1,5 @@
 import React from 'react'
-import './objetivos.css'
+import './Objetivos.css'
 
 function Objetivos() {
     return (
