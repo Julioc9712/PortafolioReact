@@ -11,7 +11,7 @@ function Footer() {
           <a href="https://twitter.com/juliocmr97" target='_blank'><i className="bi bi-twitter"></i></a>
         </div>
         <div className='gmail-footer'>
-            <a href="" className='gmail'>juliocmr97@gmail.com</a>
+            <a href="/Contacto" className='gmail'>juliocmr97@gmail.com</a>
         </div>
         <div className='logo-whatapp'><a href="https://wa.me/+5352990719?text=Buenas%20le%20contacto%20a%20traves%20del%20PortafolioReact" target='__blanck'><img src='images/img-svg/whatsapp.svg' alt="" /></a>
     </div>

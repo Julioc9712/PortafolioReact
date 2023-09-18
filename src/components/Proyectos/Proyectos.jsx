@@ -7,7 +7,7 @@ function Proyectos() {
             <h1 className='titulo'>Proyectos</h1>
             <div className='contenedor-proyectos'data-aos="zoom-in">
                 <div className="card" >
-                    <img src="/images/portafolio.jpg" className="card-img-top" alt="..." />
+                    <img src="/images/portafolio.jpg" className="card-img-top" alt="portafolio" />
                     <div className="card-body">
                         <h5 className="card-title">Portafolio web</h5>
                         <p className="card-text">"Portafolio web creativo y personalizado construido con HTML, CSS y JavaScript, exhibiendo proyectos y habilidades de manera profesional."</p><br />
@@ -15,7 +15,7 @@ function Proyectos() {
                     </div>
                 </div>
                 <div className="card" >
-                    <img src="/images/appReact.png" className="card-img-top" alt="..." />
+                    <img src="/images/appReact.png" className="card-img-top" alt="appReact" />
                     <div className="card-body">
                         <h5 className="card-title">Tienda web</h5>
                         <p className="card-text">"Tienda web atractiva y dinámica construida con React, promocionando productos y servicios, con opción de contacto fácil a través de WhatsApp."</p><br />
@@ -23,7 +23,7 @@ function Proyectos() {
                     </div>
                 </div>
                 <div className="card" >
-                    <img src="/images/miniproyectos.avif" className="card-img-top" alt="..." />
+                    <img src="/images/miniproyectos.avif" className="card-img-top" alt="miniproyectos" />
                     <div className="card-body">
                         <h5 className="card-title">Miniproyectos</h5>
                         <p className="card-text">"Miniproyecto: Clima y Roadmap. Utiliza llamadas a APIs con fetch, hook (useState, useEffect) para mostrar datos climáticos y organizar metas frontend ."</p><br />
