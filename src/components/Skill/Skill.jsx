@@ -19,13 +19,13 @@ function Skill() {
                             <img src="/images/img-svg/bootstrap.svg" className="img-fluid" alt="bootstrap.svg" />
                             <img src="/images/img-svg/react.svg" className="img-fluid" alt="react.svg" />
                             <img src="/images/img-svg/django.svg" className="img-fluid" alt="django.svg" />
-                            <img src="/images/img-svg/sql.svg" className="img-fluid" alt="sql.svg" />
+                          
                             <img src="/images/img-svg/postgresql.svg" className="img-fluid" alt="postgresql.svg" />
-                            <img src="/images/img-svg/graphql.svg" className="img-fluid" alt="graphql.svg" />
+                           
                             <img src="/images/img-svg/vsc.svg" className="img-fluid" alt="vsc.svg" />
                             <img src="/images/img-svg/git.svg" className="img-fluid" alt="git.svg" />
                             <img src="/images/img-svg/github.svg" className="img-fluid" alt="github.svg" />
-                            <img src="/images/img-svg/figma.svg" className="img-fluid" alt="figma.svg" />
+                            
                         </div>
 
                     </div>
