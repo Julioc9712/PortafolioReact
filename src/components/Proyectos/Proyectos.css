@@ -1,26 +1,29 @@
-.contenedor-proyectos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 5rem;
+.contenedor-proyectos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
 }
-.card{
-    width: 360px;
-    height: 550px;
-    background-color: rgb(39, 38, 44);
-    color: aliceblue;
-    overflow: hidden;
-    margin-bottom: 5rem;
-    
+.card {
+  width: 360px;
+  height: 550px;
+  background-color: rgb(39, 38, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  color: aliceblue;
+  overflow: hidden;
+  margin-bottom: 5rem;
 }
-.card-img-top{
-    
-    width: 400px;
-    height: 300px;
-    
+.card-img-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1/0.8;
+  object-fit: cover;
 }
-i{
-    padding-right: 5px;
+i {
+  padding-right: 5px;
 }
-

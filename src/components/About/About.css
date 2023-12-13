@@ -1,111 +1,69 @@
-
-
-.contenedor-about{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem auto;
-    gap: 10rem;
-    
-    
+.contenedor-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  gap: 10rem;
 }
 
-
-.contenedor-info h1{
-    margin:20px auto;
-    color: #3561ee;
-    border-bottom: 3px solid #3b6b81;
-    width: 280px;
-    text-align: center;
-    
+.contenedor-info h1 {
+  margin: 20px auto;
+  color: #3561ee;
+  border-bottom: 3px solid #3b6b81;
+  width: 280px;
+  text-align: center;
 }
-.contenedor-info h1 i{
-    padding: 5px;
+.contenedor-info h1 i {
+  padding: 5px;
 }
-.contenedor-perfil{
-    width: 300px;
-    
-}
-.contenedor-info p{
-    font-size: 18px;
-    width: 60vh;
-    color: white;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);    
-    border-radius: 10px;
-    padding: 10px;
-    
-    
-}
-.portadaPerfil{
-    width: 350x;
-    height: 550px;
-    border-radius: 30px;
-    filter: drop-shadow(0 0 10px #000000);
-    
-}
-.portadaPerfil:hover{
-    scale: 1.05;
+.contenedor-perfil {
+  width: auto;
 }
 
-@media  screen and (max-width: 1600px){
-    .contenedor-info p{
-        width: 80vh;
-        font-size: 18px;
-    }
-}   
-
-@media  screen and (max-width: 1360px){
-    .contenedor-info p{
-        width: 60vh;
-    }
+.portadaPerfil {
+  width: 380px;
+  height: 380px;
+  border-radius: 30px;
+  filter: drop-shadow(0 0 10px #d1e7fa);
+}
+.portadaPerfil:hover {
+  scale: 1.05;
+}
+.contenedor-info p {
+  font-size: 18px;
+  width: 60vh;
+  color: white;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  border-radius: 10px;
+  padding: 10px;
 }
 
+@media screen and (max-width: 1100px) {
+  .contenedor-info p {
+    font-size: 16px;
+    width: 50vh;
+  }
 
-
-@media  screen and (max-width: 1100px){
-    .contenedor-info p{
-        font-size: 16px;
-        width: 45vh;
-    }
-    .portadaPerfil{
-        width: 250px;
-        height: 450px;  
-    }
-    .contenedor-about{
-        gap: 1px;
-    }
+  .contenedor-about {
+    gap: 2rem;
+  }
+  .portadaPerfil {
+    width: 360px;
+    height: 360px;
+  }
 }
-
-@media  screen and (max-width: 750px){
-    .contenedor-info p{
-        font-size: 15px;
-        width: 34vh;
-        margin-right: 20px;
-    }
-    .portadaPerfil{
-        width: 250px;
-        height: 450px;  
-    }
-    
+@media screen and (max-width: 850px) {
+  .contenedor-about {
+    flex-direction: column;
+  }
+  .contenedor-info p {
+    font-size: 15px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portadaPerfil {
+    width: 320px;
+    height: 320px;
+  }
 }
-
-@media  screen and (max-width: 550px){
-    .contenedor-info p{
-        font-size: 13px;
-        width: 28vh;
-        margin-right: 10px;
-        
-        
-    }
-    .contenedor-info h1{
-        width: 150px;
-        font-size: 20px;
-        
-    }
-    .portadaPerfil{
-        width: 150px;
-        height: 400px;  
-        
-    }
-   
-}   
