@@ -37,11 +37,7 @@ function Skill() {
                   className="img-fluid"
                   alt="material-ui.svg"
                 />
-                <img
-                  src="/images/img-svg/tailwind.svg"
-                  className="img-fluid"
-                  alt="tailwind.svg"
-                />
+
                 <img
                   src="/images/img-svg/javascript.svg"
                   className="img-fluid"
@@ -52,11 +48,7 @@ function Skill() {
                   className="img-fluid"
                   alt="typescript.svg"
                 />
-                <img
-                  src="/images/img-svg/python.svg"
-                  className="img-fluid"
-                  alt="python.svg"
-                />
+
                 <img
                   src="/images/img-svg/jquery.svg"
                   className="img-fluid"
@@ -68,20 +60,50 @@ function Skill() {
                   alt="react.svg"
                 />
                 <img
+                  src="/images/img-svg/react-router.svg"
+                  className="img-fluid"
+                  alt="react-router.svg"
+                />
+                <div>
+                  <img
+                    src="/images/img-svg/context.svg"
+                    className="img-fluid"
+                    alt="context.svg"
+                  />
+                  <p className="text_context">Context-API</p>
+                </div>
+
+                <img
                   src="/images/img-svg/redux.svg"
                   className="img-fluid"
                   alt="redux.svg"
                 />
                 <img
-                  src="/images/img-svg/graphql.svg"
+                  style={{
+                    marginTop: "1.6rem",
+                    marginLeft: "-1rem",
+                    scale: "1.4",
+                  }}
+                  src="/images/img-svg/axios.svg"
                   className="img-fluid"
-                  alt="graphql.svg"
+                  alt="axios.svg"
+                />
+                <img
+                  src="/images/img-svg/apollo.svg"
+                  className="img-fluid"
+                  alt="apollo.svg"
                 />
 
                 <img
                   src="/images/img-svg/jest.png"
                   className="img-fluid"
                   alt="jest.png"
+                />
+                <img
+                  style={{ width: "90px" }}
+                  src="/images/img-svg/testing-librery.png"
+                  className="img-fluid"
+                  alt="testing-librery.png"
                 />
                 <img
                   src="/images/img-svg/nextjs.svg"
@@ -100,9 +122,9 @@ function Skill() {
                   alt="github.svg"
                 />
                 <img
-                  src="/images/img-svg/vsc.svg"
+                  src="/images/img-svg/firebase.svg"
                   className="img-fluid"
-                  alt="vsc.svg"
+                  alt="firebase.svg"
                 />
               </div>
             </div>
