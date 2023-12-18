@@ -81,7 +81,7 @@ function Skill() {
                 <img
                   style={{
                     marginTop: "1.6rem",
-                    marginLeft: "-1rem",
+                    marginLeft: "-10px",
                     scale: "1.4",
                   }}
                   src="/images/img-svg/axios.svg"
