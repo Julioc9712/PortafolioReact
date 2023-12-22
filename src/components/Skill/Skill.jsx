@@ -88,23 +88,7 @@ function Skill() {
                   className="img-fluid"
                   alt="axios.svg"
                 />
-                <img
-                  src="/images/img-svg/apollo.svg"
-                  className="img-fluid"
-                  alt="apollo.svg"
-                />
-
-                <img
-                  src="/images/img-svg/jest.png"
-                  className="img-fluid"
-                  alt="jest.png"
-                />
-                <img
-                  style={{ width: "90px" }}
-                  src="/images/img-svg/testing-librery.png"
-                  className="img-fluid"
-                  alt="testing-librery.png"
-                />
+                
                 <img
                   src="/images/img-svg/nextjs.svg"
                   className="img-fluid"
